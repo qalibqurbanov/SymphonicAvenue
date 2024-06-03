@@ -11,15 +11,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "external", "external", "{F7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{5616A1B1-BB9B-4ACE-A9BB-9C8A0DE6DE41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymphonicAvenue.Domain", "src\core\SymphonicAvenue.Domain\SymphonicAvenue.Domain.csproj", "{52AE75D6-AE46-4E50-B8AE-107F41418D36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SymphonicAvenue.Domain", "src\core\SymphonicAvenue.Domain\SymphonicAvenue.Domain.csproj", "{52AE75D6-AE46-4E50-B8AE-107F41418D36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymphonicAvenue.Application", "src\core\SymphonicAvenue.Application\SymphonicAvenue.Application.csproj", "{2A567380-5FE0-4B4B-ABF8-D4E56F89CDC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SymphonicAvenue.Application", "src\core\SymphonicAvenue.Application\SymphonicAvenue.Application.csproj", "{2A567380-5FE0-4B4B-ABF8-D4E56F89CDC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymphonicAvenue.Infrastructure", "src\external\SymphonicAvenue.Infrastructure\SymphonicAvenue.Infrastructure.csproj", "{843E549C-47E8-46F9-8A7A-BCC68ABD0484}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SymphonicAvenue.Infrastructure", "src\external\SymphonicAvenue.Infrastructure\SymphonicAvenue.Infrastructure.csproj", "{843E549C-47E8-46F9-8A7A-BCC68ABD0484}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymphonicAvenue.Persistence", "src\external\SymphonicAvenue.Persistence\SymphonicAvenue.Persistence.csproj", "{1909DA39-C21C-4182-AD62-91C182AF7C01}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymphonicAvenue.WebAPI", "SymphonicAvenue.WebAPI\SymphonicAvenue.WebAPI.csproj", "{A74D1A15-9EC9-4508-82F0-5D098BC5A6C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SymphonicAvenue.Persistence", "src\external\SymphonicAvenue.Persistence\SymphonicAvenue.Persistence.csproj", "{1909DA39-C21C-4182-AD62-91C182AF7C01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,10 +41,6 @@ Global
 		{1909DA39-C21C-4182-AD62-91C182AF7C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1909DA39-C21C-4182-AD62-91C182AF7C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1909DA39-C21C-4182-AD62-91C182AF7C01}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A74D1A15-9EC9-4508-82F0-5D098BC5A6C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A74D1A15-9EC9-4508-82F0-5D098BC5A6C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A74D1A15-9EC9-4508-82F0-5D098BC5A6C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A74D1A15-9EC9-4508-82F0-5D098BC5A6C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,7 +53,6 @@ Global
 		{2A567380-5FE0-4B4B-ABF8-D4E56F89CDC8} = {5616A1B1-BB9B-4ACE-A9BB-9C8A0DE6DE41}
 		{843E549C-47E8-46F9-8A7A-BCC68ABD0484} = {F770A8E2-1EB6-4855-9EE5-4C7141F4598C}
 		{1909DA39-C21C-4182-AD62-91C182AF7C01} = {F770A8E2-1EB6-4855-9EE5-4C7141F4598C}
-		{A74D1A15-9EC9-4508-82F0-5D098BC5A6C0} = {22AC7B0D-25B3-4A6D-B10B-EFC97C8D73CE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BBE8BEAB-118E-4812-9993-C2B60CD96722}
