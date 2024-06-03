@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SymphonicAvenue.Infrastruct
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SymphonicAvenue.Persistence", "src\external\SymphonicAvenue.Persistence\SymphonicAvenue.Persistence.csproj", "{1909DA39-C21C-4182-AD62-91C182AF7C01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymphonicAvenue.WebAPI", "src\ui\SymphonicAvenue.WebAPI\SymphonicAvenue.WebAPI.csproj", "{6D4585D9-1531-4718-91E2-9C34D9A20AC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{1909DA39-C21C-4182-AD62-91C182AF7C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1909DA39-C21C-4182-AD62-91C182AF7C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1909DA39-C21C-4182-AD62-91C182AF7C01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D4585D9-1531-4718-91E2-9C34D9A20AC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D4585D9-1531-4718-91E2-9C34D9A20AC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D4585D9-1531-4718-91E2-9C34D9A20AC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D4585D9-1531-4718-91E2-9C34D9A20AC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{2A567380-5FE0-4B4B-ABF8-D4E56F89CDC8} = {5616A1B1-BB9B-4ACE-A9BB-9C8A0DE6DE41}
 		{843E549C-47E8-46F9-8A7A-BCC68ABD0484} = {F770A8E2-1EB6-4855-9EE5-4C7141F4598C}
 		{1909DA39-C21C-4182-AD62-91C182AF7C01} = {F770A8E2-1EB6-4855-9EE5-4C7141F4598C}
+		{6D4585D9-1531-4718-91E2-9C34D9A20AC0} = {22AC7B0D-25B3-4A6D-B10B-EFC97C8D73CE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BBE8BEAB-118E-4812-9993-C2B60CD96722}
