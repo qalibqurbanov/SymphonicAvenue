@@ -20,11 +20,23 @@ namespace SymphonicAvenue.WebAPI.Extensions
         /// </summary>
         public static IServiceCollection RegisterUIServices(this IServiceCollection services, WebApplicationBuilder builder)
         {
-            builder.Configuration
+            {
+                builder.Configuration
+                // Appimizin konfiqurasiya fayllarinin harada saxlanildigini gosteririk:
                 .SetBasePath(builder.Environment.ContentRootPath)
+
+                // Proyektimde hec olmasa 'appsettings.json'-a sahib olmagini istediyim ucun 'optional' parametrine 'false' verirem, onsuzda environmente gore bawqa 'appsettings' fayli olsa bu fayli ezecek:
                 .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+
+                // Environment esasinda yaxalanacaq 'appsettings' fayli varsa iwledilsin deyirem, bu fayl olada biler, olmayada biler, bu sebeble bu fayli optional edirem.
                 .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true)
+
+                // Environment variable olaraq elave etdiyimiz custom ve s. datalari oxuyub getirecek, getirdiyi datalari bildiyimiz klassik: "builder.Configuration['keyName']" :sintaksisiyle oxuyuruq:
                 .AddEnvironmentVariables();
+
+                // Tapilan 'appsettings.json' ozunden bir evvelki metod cagiriwindan elde olunmuw 'appsettings' faylini ezecek. Yeni, 'appsettings.json' tapilmiw idise, daha sonra cagirdigimiz 'appsettings.{ENVIRONMENT}.json' tapilsa ilk evvel tapilmiw 'appsettings.json'-un yerine kececek.
+            }
+            
 
             services
                 .AddControllers()
