@@ -9,30 +9,22 @@ using GameShop.Domain.Entities.Common.Concretes;
 namespace GameShop.Domain.Entities.Models
 {
     /// <summary>
-    /// Kateqoriyani temsil edir.
+    /// Brendi temsil edir.
     /// </summary>
-    public class Category : EntityBase
+    public class Brand : EntityBase
     {
-        public Category()
+        public Brand()
         {
             
         }
 
-        public Category(string name, int parentId, int priority)
+        public Brand(string name)
         {
             this.Name = name;
-            this.ParentId = parentId;
-            this.Priority = priority;
         }
 
         #region vars
         public required string Name { get; set; }
-        public required int ParentId { get; set; }
-        public required int Priority { get; set; }
-
-        public ICollection<Detail> Details { get; set; }
-
-        public ICollection<Product> Products { get; set; }
         #endregion vars
     }
 }
