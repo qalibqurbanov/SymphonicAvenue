@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using GameShop.Domain.Entities.Common.Abstractions;
+using WonderMart.Domain.Entities.Common.Abstractions;
 
-namespace GameShop.Domain.Entities.Common.Concretes
+namespace WonderMart.Domain.Entities.Common.Concretes
 {
     public abstract class EntityBase : IEntityBase, IAuditable
     {

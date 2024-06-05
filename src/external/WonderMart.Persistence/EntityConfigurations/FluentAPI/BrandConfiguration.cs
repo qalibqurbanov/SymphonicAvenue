@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using GameShop.Domain.Entities.Models;
+using WonderMart.Domain.Entities.Models;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore;
 using Bogus;
 using System.Net.Http.Headers;
 
-namespace GameShop.Persistence.EntityConfigurations.FluentAPI
+namespace WonderMart.Persistence.EntityConfigurations.FluentAPI
 {
     public class BrandConfiguration : IEntityTypeConfiguration<Brand>
     {

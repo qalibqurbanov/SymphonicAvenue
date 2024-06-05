@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using GameShop.Domain.Entities.Common.Concretes;
+using WonderMart.Domain.Entities.Common.Concretes;
 
-namespace GameShop.Domain.Entities.Models
+namespace WonderMart.Domain.Entities.Models
 {
     /// <summary>
     /// Kateqoriyanin detallarini temsil edir.

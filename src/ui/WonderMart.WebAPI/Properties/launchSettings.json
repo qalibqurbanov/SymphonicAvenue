@@ -2,7 +2,7 @@
   "$schema": "http://json.schemastore.org/launchsettings.json",
 
   "profiles": {
-    "SymphonicAvenue.DEVELOPMENT": {
+    "WonderMart.DEVELOPMENT": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
@@ -13,7 +13,7 @@
       }
     },
 
-    "SymphonicAvenue.PRODUCTION": {
+    "WonderMart.PRODUCTION": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

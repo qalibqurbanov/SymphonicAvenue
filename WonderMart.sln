@@ -11,15 +11,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "external", "external", "{F7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{5616A1B1-BB9B-4ACE-A9BB-9C8A0DE6DE41}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameShop.Domain", "src\core\GameShop.Domain\GameShop.Domain.csproj", "{52AE75D6-AE46-4E50-B8AE-107F41418D36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WonderMart.Domain", "src\core\WonderMart.Domain\WonderMart.Domain.csproj", "{52AE75D6-AE46-4E50-B8AE-107F41418D36}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameShop.Application", "src\core\GameShop.Application\GameShop.Application.csproj", "{2A567380-5FE0-4B4B-ABF8-D4E56F89CDC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WonderMart.Application", "src\core\WonderMart.Application\WonderMart.Application.csproj", "{2A567380-5FE0-4B4B-ABF8-D4E56F89CDC8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameShop.Infrastructure", "src\external\GameShop.Infrastructure\GameShop.Infrastructure.csproj", "{843E549C-47E8-46F9-8A7A-BCC68ABD0484}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WonderMart.Infrastructure", "src\external\WonderMart.Infrastructure\WonderMart.Infrastructure.csproj", "{843E549C-47E8-46F9-8A7A-BCC68ABD0484}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameShop.Persistence", "src\external\GameShop.Persistence\GameShop.Persistence.csproj", "{1909DA39-C21C-4182-AD62-91C182AF7C01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WonderMart.Persistence", "src\external\WonderMart.Persistence\WonderMart.Persistence.csproj", "{1909DA39-C21C-4182-AD62-91C182AF7C01}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameShop.WebAPI", "src\ui\GameShop.WebAPI\GameShop.WebAPI.csproj", "{6D4585D9-1531-4718-91E2-9C34D9A20AC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WonderMart.WebAPI", "src\ui\WonderMart.WebAPI\WonderMart.WebAPI.csproj", "{6D4585D9-1531-4718-91E2-9C34D9A20AC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

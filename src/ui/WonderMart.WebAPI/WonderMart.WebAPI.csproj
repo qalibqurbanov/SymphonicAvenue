@@ -15,8 +15,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\external\GameShop.Infrastructure\GameShop.Infrastructure.csproj" />
-    <ProjectReference Include="..\..\external\GameShop.Persistence\GameShop.Persistence.csproj" />
+    <ProjectReference Include="..\..\external\WonderMart.Infrastructure\WonderMart.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\external\WonderMart.Persistence\WonderMart.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Bogus;
-using GameShop.Domain.Entities.Models;
+using WonderMart.Domain.Entities.Models;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore;
 
-namespace GameShop.Persistence.EntityConfigurations.FluentAPI
+namespace WonderMart.Persistence.EntityConfigurations.FluentAPI
 {
     internal class CategoryConfiguration : IEntityTypeConfiguration<Category>
     {

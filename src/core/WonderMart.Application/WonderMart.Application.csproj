@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GameShop.Domain\GameShop.Domain.csproj" />
+    <ProjectReference Include="..\WonderMart.Domain\WonderMart.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>

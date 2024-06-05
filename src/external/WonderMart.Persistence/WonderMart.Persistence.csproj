@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\core\GameShop.Application\GameShop.Application.csproj" />
+    <ProjectReference Include="..\..\core\WonderMart.Application\WonderMart.Application.csproj" />
   </ItemGroup>
 
   <ItemGroup>

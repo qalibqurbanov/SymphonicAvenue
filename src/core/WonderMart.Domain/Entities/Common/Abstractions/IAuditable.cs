@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GameShop.Domain.Entities.Common.Abstractions
+namespace WonderMart.Domain.Entities.Common.Abstractions
 {
     public interface IAuditable
     {
